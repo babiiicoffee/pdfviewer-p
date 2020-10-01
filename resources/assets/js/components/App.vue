@@ -12,5 +12,14 @@
 </template>
 
 <script>
+import Vue from 'vue'
+
+
     export default {}
+    
+new Vue({
+  el: '#app',
+  data: {color: 'BLUE'}
+})
+
 </script>

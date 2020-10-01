@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\PageController;
+use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,5 +15,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-// Route::get('/{any}', 'PageController@index')->where('any', '.*');
 Route::get('/{any}', [PageController::class, 'index'])->where('any', '.*');
+Route::post('/formSubmit', [UserController::class, 'register']);
+Route::post('/loginsubmit', [UserController::class, 'login']);

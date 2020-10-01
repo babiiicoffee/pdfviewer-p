@@ -2,7 +2,9 @@ import Vue from "vue";
 import VueRouter from "vue-router";
 
 import Login from "../components/forms/Login";
+import Register from "../components/forms/Register";
 import Home from "../components/Home";
+import Dashboard from "../components/dashboard/Dashboard";
 
 Vue.use(VueRouter);
 
@@ -13,16 +15,26 @@ const routes = [
     component: Home
   },
   {
+    path: "/home",
+    redirect: {
+        name: "home"
+    },
+  },
+  {
     path: "/login",
-    name: "Login",
+    name: "login",
     component: Login
   },
-
   {
-    path: "/home",
-    name: "Home",
-    component: Home
-  }
+    path: "/register",
+    name: "register",
+    component: Register
+  },
+  {
+    path: "/dashboard",
+    name: "dashboard",
+    component: Dashboard
+  },
 ];
 
 const router = new VueRouter({

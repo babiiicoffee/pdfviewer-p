@@ -19362,7 +19362,7 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\2ndyrgroupb\Desktop\But-anon\Projects\PdfViewer-p\resources\assets\js\bootstrap.js */"./resources/assets/js/bootstrap.js");
+module.exports = __webpack_require__(/*! C:\Users\2ndyrgroupb\Desktop\But-anon\Projects\pdfviewer-p\resources\assets\js\bootstrap.js */"./resources/assets/js/bootstrap.js");
 
 
 /***/ })

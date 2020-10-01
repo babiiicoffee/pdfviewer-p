@@ -4,9 +4,7 @@
         <v-container bg fill-height grid-list-md text-xs-center>
             <v-layout row wrap align-center>
                 <v-flex>
-                    <h1>This is Home.vue Page</h1>
-                        <router-link to="/login">Login</router-link>
-                        <router-link to="/register">Register</router-link>
+                    <h1>This is Dashboard.vue Page</h1>
                 </v-flex>
             </v-layout>
         </v-container>
@@ -14,11 +12,9 @@
 </template>
 
 <script>
-import Login from './forms/Login'
 
 export default {
     components : {
-        Login
     },
     methods : {
         login() {

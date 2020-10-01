@@ -7,7 +7,8 @@
         <title>PDF Viewer</title>
 
         <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap">
+        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap">
 
         
     </head>
@@ -27,6 +28,6 @@
 
 <style>
 body {
-    font-family: 'Nunito';
+    font-family: 'Poppins', sans-serif;
 }
 </style>
